@@ -1,3 +1,6 @@
+import fs from 'fs'
+import { join } from 'path'
+
 // List of Gyms
 interface Gym {
   name: string
@@ -28,8 +31,7 @@ interface AbsoluteResult {
   max: number
 }
 
-// TODO: Load from JSON file
-const gyms: readonly Gym[] = []
+const gyms: readonly Gym[] = JSON.parse(fs.readFileSync(join(__dirname, '..', 'gyms.json'), 'utf8'))
 
 async function getOccupancy(gym: Gym): Promise<APIResult> {
   // TODO: Implement Boulderado
