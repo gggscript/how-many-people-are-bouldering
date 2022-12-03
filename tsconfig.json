@@ -1,0 +1,11 @@
+{
+  "extends": "@tsconfig/recommended",
+
+  "compileOnSave": true,
+  "compilerOptions": {
+    "sourceMap": true,
+    "declaration": true,
+    "outDir": "dist"
+  },
+  "include": ["src"]
+}

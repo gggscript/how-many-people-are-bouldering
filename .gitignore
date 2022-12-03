@@ -1,0 +1,8 @@
+# compiled code
+dist
+
+# code from others
+node_modules
+
+# automatic config file
+package-lock.json
