@@ -1,1 +1,82 @@
-[]
+[
+  {
+    "name": "Aalen Kletterhalle",
+    "website": "https://kletterhalle-aalen.de",
+    "api": {
+      "type": "boulderado",
+      "token": "eyJhbGciOiJIUzI1NiIsICJ0eXAiOiJKV1QifQ.eyJjdXN0b21lciI6IkRBVkFhbGVuIn0.I2bl3yVePpMDO7fUTPrz-Z4G-2-yShxcdmnBY4xstog"
+    }
+  },
+  {
+    "name": "Berlin Magicmountain",
+    "website": "https://www.magicmountain.de",
+    "api": {
+      "type": "boulderado",
+      "token": "eyJhbGciOiJIUzI1NiIsICJ0eXAiOiJKV1QifQ.eyJjdXN0b21lciI6Ik1hZ2ljTW91bnRhaW4yMDIwMTQifQ.8919GglOcSMn9jl48zZVqNtZzXHh9RX23pN9F6DgX3E"
+    }
+  },
+  {
+    "name": "Burgoberbach Boulder Hall",
+    "website": "https://boulderhall.de",
+    "api": {
+      "type": "boulderado",
+      "token": "eyJhbGciOiJIUzI1NiIsICJ0eXAiOiJKV1QifQ.eyJjdXN0b21lciI6IkJvdWxkZXJIYWxsIn0.jUG93IaTtWf--d7mPMuZ1wPkBvmXSm2MhhcKf6HQeMA"
+    }
+  },
+  {
+    "name": "Duisburg Einstein",
+    "website": "https://duisburg.einstein-boulder.com",
+    "api": {
+      "type": "boulderado",
+      "token": "eyJhbGciOiJIUzI1NiIsICJ0eXAiOiJKV1QifQ.eyJjdXN0b21lciI6IkVpbnN0ZWluRHVpc2J1cmcyNzQ2In0.15BWuXYCsdomDfaea-AgBhde-FnNo_kyftRci1l_Xyk"
+    }
+  },
+  {
+    "name": "Erlangen DAV",
+    "website": "https://www.kletter-und-vereinszentrum.de",
+    "api": {
+      "type": "boulderado",
+      "token": "eyJhbGciOiJIUzI1NiIsICJ0eXAiOiJKV1QifQ.eyJjdXN0b21lciI6IkRBVkVybGFuZ2VuMjMyMDIwIn0.Fr3KR0obdp_aYzCIclQTMZr0dVIxT0bfyUVODU_u64M"
+    }
+  },
+  {
+    "name": "Erlangen Der Steinbock",
+    "website": "https://www.dersteinbock-erlangen.de",
+    "api": {
+      "type": "boulderado",
+      "token": "eyJhbGciOiJIUzI1NiIsICJ0eXAiOiJKV1QifQ.eyJjdXN0b21lciI6IlN0ZWluYm9ja0VybGFuZ2VuMzkyMDIxIn0.jchq4dpdvDPMWYXUEFRdeBCctqEJoIUIiC_6jvxFmSo"
+    }
+  },
+  {
+    "name": "Hersbruck Raiffeisebank",
+    "website": "https://www.raiffeisenbank-kletterwelt.de",
+    "api": {
+      "type": "boulderado",
+      "token": "eyJhbGciOiJIUzI1NiIsICJ0eXAiOiJKV1QifQ.eyJjdXN0b21lciI6IkRBVkhlcnNicnVjayJ9.EdAisBKvuApVOGYnctB9C-LZ2c3gu5kWp6CnzQPQgAk"
+    }
+  },
+  {
+    "name": "Kirchheim Stuntwerk",
+    "website": "https://stuntwerk-kirchheim.de",
+    "api": {
+      "type": "boulderado",
+      "token": "eyJhbGciOiJIUzI1NiIsICJ0eXAiOiJKV1QifQ.eyJjdXN0b21lciI6IlN0dW50d2Vya0tpcmNoaGVpbTIwMjAzOSJ9.GeDZdKiZSnsAmIyZHNNmIWztxdCE8SE7-1CBn1XJihw"
+    }
+  },
+  {
+    "name": "Koeln Stuntwerk",
+    "website": "https://stuntwerk-koeln.de",
+    "api": {
+      "type": "boulderado",
+      "token": "eyJhbGciOiJIUzI1NiIsICJ0eXAiOiJKV1QifQ.eyJjdXN0b21lciI6IlN0dW50d2VyayJ9.7k8N_cgJEg_hmFGmNytpF6UyIwiR13M5VNQyZ_f8mBA"
+    }
+  },
+  {
+    "name": "Konstanz Der Steinbock",
+    "website": "https://www.dersteinbock-konstanz.de",
+    "api": {
+      "type": "boulderado",
+      "token": "eyJhbGciOiJIUzI1NiIsICJ0eXAiOiJKV1QifQ.eyJjdXN0b21lciI6IlN0ZWluYm9ja0tvbnN0YW56MzkyMDE5In0.Io2pIXQ4lXUmRXM3Q0snudOGYytyZkVv3hbSh_QrUA0"
+    }
+  }
+]
