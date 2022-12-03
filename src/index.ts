@@ -4,7 +4,6 @@ import { gotScraping } from 'got-scraping'
 import type { Got, ExtendOptions } from 'got-scraping'
 import getBoulderadoOccupancy from './apis/boulderado'
 
-// List of Gyms
 export interface Gym {
   name: string
   website: string
@@ -23,11 +22,13 @@ export interface WebclimberAPI {
   token: string
 }
 
+// Different Ways APIs respond
 export type APIResult = RelativeAPIResult | AbsoluteAPIResult
 export interface RelativeAPIResult {
   type: 'relative'
   percentage: number
 }
+/** WARNING: {@link max} may be smaller than {@link current}, because of an outdated configuration by the gym */
 export interface AbsoluteAPIResult {
   type: 'absolute'
   current: number
@@ -36,10 +37,11 @@ export interface AbsoluteAPIResult {
 
 let httpClient = gotScraping
 
+/** List of Bouldering Gyms */
 const gyms: readonly Gym[] = JSON.parse(fs.readFileSync(join(__dirname, '..', 'gyms.json'), 'utf8'))
 
+/** Request Occupancy Information from a HTTP API */
 async function getOccupancy(gym: Gym): Promise<APIResult> {
-  // TODO: Implement Boulderado
   if (gym.api.type === 'boulderado') {
     return await getBoulderadoOccupancy(httpClient, gym.api)
   }
