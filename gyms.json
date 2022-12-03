@@ -16,6 +16,15 @@
     }
   },
   {
+    "name": "Biberach DAV",
+    "website": "https://www.sparkassen-dome-biberach.de",
+    "api": {
+      "type": "webclimber",
+      "id": 207,
+      "token": "VNkR6RntCCRey5Y9XgmxMK6pg52qH6us"
+    }
+  },
+  {
     "name": "Burgoberbach Boulder Hall",
     "website": "https://boulderhall.de",
     "api": {
@@ -48,6 +57,24 @@
     }
   },
   {
+    "name": "Frankfurt Kletterbar",
+    "website": "https://kletterbar-offenbach.de",
+    "api": {
+      "type": "webclimber",
+      "id": 133,
+      "token": "UtpHvbBVgevzEx1Ufw9fGTrxQfTP4Tba"
+    }
+  },
+  {
+    "name": "Hannover Kletterbar",
+    "website": "https://kletterbar-hannover.de",
+    "api": {
+      "type": "webclimber",
+      "id": 145,
+      "token": "f4573UP0g7EVDf2XFPZwHR8x8M88720E"
+    }
+  },
+  {
     "name": "Hersbruck Raiffeisebank",
     "website": "https://www.raiffeisenbank-kletterwelt.de",
     "api": {
@@ -56,11 +83,38 @@
     }
   },
   {
+    "name": "Ingolstadt DAV",
+    "website": "https://www.dav-ringsee.de",
+    "api": {
+      "type": "webclimber",
+      "id": 105,
+      "token": "pWmH0TyDCMeBM4U5sEn6bwBqKTRt5Asq"
+    }
+  },
+  {
+    "name": "Kiel Kletterbar",
+    "website": "https://kletterbar-kiel.de",
+    "api": {
+      "type": "webclimber",
+      "id": 170,
+      "token": "DQ5nzAA3FqZzfvBcf1AnWyY3WB22nVrS"
+    }
+  },
+  {
     "name": "Kirchheim Stuntwerk",
     "website": "https://stuntwerk-kirchheim.de",
     "api": {
       "type": "boulderado",
       "token": "eyJhbGciOiJIUzI1NiIsICJ0eXAiOiJKV1QifQ.eyJjdXN0b21lciI6IlN0dW50d2Vya0tpcmNoaGVpbTIwMjAzOSJ9.GeDZdKiZSnsAmIyZHNNmIWztxdCE8SE7-1CBn1XJihw"
+    }
+  },
+  {
+    "name": "Koeln Kletterfabrik",
+    "website": "https://www.kletterfabrik.koeln",
+    "api": {
+      "type": "webclimber",
+      "id": 121,
+      "token": "9mQ2bg0FnNDSN9TACdem9rWE0VWuntdn"
     }
   },
   {
@@ -77,6 +131,42 @@
     "api": {
       "type": "boulderado",
       "token": "eyJhbGciOiJIUzI1NiIsICJ0eXAiOiJKV1QifQ.eyJjdXN0b21lciI6IlN0ZWluYm9ja0tvbnN0YW56MzkyMDE5In0.Io2pIXQ4lXUmRXM3Q0snudOGYytyZkVv3hbSh_QrUA0"
+    }
+  },
+  {
+    "name": "Memmingen DAV",
+    "website": "https://boulderhalle-memmingen.de",
+    "api": {
+      "type": "webclimber",
+      "id": 195,
+      "token": "mG70kfF134tHyhE24suesB8fdMHSXAmw"
+    }
+  },
+  {
+    "name": "Nuernberg climbing factory",
+    "website": "https://climbing-factory.de/startseite.html",
+    "api": {
+      "type": "webclimber",
+      "id": 173,
+      "token": "aHm2rs53fCs1H7F01dxDpeFZ5V3mKH8f"
+    }
+  },
+  {
+    "name": "Regensburg DAV",
+    "website": "https://www.kletterzentrum-regensburg.de",
+    "api": {
+      "type": "webclimber",
+      "id": 126,
+      "token": "THbq9w2DkUhmaKv7nvrXraeFQ8BSYf6C"
+    }
+  },
+  {
+    "name": "Reutlingen DAV",
+    "website": "https://www.kletterzentrum-reutlingen.de",
+    "api": {
+      "type": "webclimber",
+      "id": 104,
+      "token": "DTRNE01KU4Bub6BMz106MBAGaukYdzzb"
     }
   }
 ]
