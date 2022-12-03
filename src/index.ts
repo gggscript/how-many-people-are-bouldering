@@ -1,35 +1,39 @@
 import fs from 'fs'
 import { join } from 'path'
+import { gotScraping } from 'got-scraping'
+import type { Got, ExtendOptions } from 'got-scraping'
 
 // List of Gyms
-interface Gym {
+export interface Gym {
   name: string
   website: string
   api: GymHeadcountAPI
 }
 
 // Different APIs
-type GymHeadcountAPI = BoulderadoAPI | WebclimberAPI
-interface BoulderadoAPI {
+export type GymHeadcountAPI = BoulderadoAPI | WebclimberAPI
+export interface BoulderadoAPI {
   type: 'boulderado'
   token: string
 }
-interface WebclimberAPI {
+export interface WebclimberAPI {
   type: 'webclimber'
   id: number
   token: string
 }
 
-type APIResult = RelativeResult | AbsoluteResult
-interface RelativeResult {
+export type APIResult = RelativeAPIResult | AbsoluteAPIResult
+export interface RelativeAPIResult {
   type: 'relative'
   percentage: number
 }
-interface AbsoluteResult {
+export interface AbsoluteAPIResult {
   type: 'absolute'
   current: number
   max: number
 }
+
+let httpClient = gotScraping
 
 const gyms: readonly Gym[] = JSON.parse(fs.readFileSync(join(__dirname, '..', 'gyms.json'), 'utf8'))
 
@@ -39,4 +43,11 @@ async function getOccupancy(gym: Gym): Promise<APIResult> {
   throw new Error('Gym Headcount API not implemented')
 }
 
-export { gyms, getOccupancy }
+/**
+ * This project's HTTPClient is {@link https://github.com/apify/got-scraping| got-scraping by apify} an extension of {@link https://github.com/sindresorhus/got| got by sindresorhus}
+ * Check got.extend at {@link https://github.com/sindresorhus/got/blob/main/documentation/10-instances.md#gotextendoptions-instances| got documentation} on how to use this */
+function setHttpOptions(...instancesOrOptions: (Got | ExtendOptions)[]) {
+  httpClient = httpClient.extend(...instancesOrOptions)
+}
+
+export { gyms, getOccupancy, setHttpOptions }
