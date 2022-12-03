@@ -2,6 +2,7 @@ import fs from 'fs'
 import { join } from 'path'
 import { gotScraping } from 'got-scraping'
 import type { Got, ExtendOptions } from 'got-scraping'
+import getBoulderadoOccupancy from './apis/boulderado'
 
 // List of Gyms
 export interface Gym {
@@ -39,6 +40,9 @@ const gyms: readonly Gym[] = JSON.parse(fs.readFileSync(join(__dirname, '..', 'g
 
 async function getOccupancy(gym: Gym): Promise<APIResult> {
   // TODO: Implement Boulderado
+  if (gym.api.type === 'boulderado') {
+    return await getBoulderadoOccupancy(httpClient, gym.api)
+  }
   // TODO: Implement Webclimber
   throw new Error('Gym Headcount API not implemented')
 }
