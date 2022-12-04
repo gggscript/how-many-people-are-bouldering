@@ -29,3 +29,33 @@ const exampleRelativeResult = {
   percentage: 15,
 }
 ```
+## Support
+
+### 2 APIs
+
+- [Boulderado](src/apis/boulderado.ts) (10 gyms)
+- [Webclimber](src/apis/webclimber.ts) (10 gyms)
+
+### 20 Gyms
+
+- [Aalen Kletterhalle](https://kletterhalle-aalen.de)
+- [Berlin Magicmountain](https://www.magicmountain.de)
+- [Biberach DAV](https://www.sparkassen-dome-biberach.de)
+- [Burgoberbach Boulder Hall](https://boulderhall.de)
+- [Duisburg Einstein](https://duisburg.einstein-boulder.com)
+- [Erlangen DAV](https://www.kletter-und-vereinszentrum.de)
+- [Erlangen Der Steinbock](https://www.dersteinbock-erlangen.de)
+- [Frankfurt Kletterbar](https://kletterbar-offenbach.de)
+- [Hannover Kletterbar](https://kletterbar-hannover.de)
+- [Hersbruck Raiffeisebank](https://www.raiffeisenbank-kletterwelt.de)
+- [Ingolstadt DAV](https://www.dav-ringsee.de)
+- [Kiel Kletterbar](https://kletterbar-kiel.de)
+- [Kirchheim Stuntwerk](https://stuntwerk-kirchheim.de)
+- [Koeln Kletterfabrik](https://www.kletterfabrik.koeln)
+- [Koeln Stuntwerk](https://stuntwerk-koeln.de)
+- [Konstanz Der Steinbock](https://www.dersteinbock-konstanz.de)
+- [Memmingen DAV](https://boulderhalle-memmingen.de)
+- [Nuernberg climbing factory](https://climbing-factory.de/startseite.html)
+- [Regensburg DAV](https://www.kletterzentrum-regensburg.de)
+- [Reutlingen DAV](https://www.kletterzentrum-reutlingen.de)
+

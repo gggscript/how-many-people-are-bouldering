@@ -21,6 +21,7 @@
     "dev": "rimraf dist && tsc --watch",
     "lint": "eslint --ext .js,.ts .",
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
+    "fix": "node fix.js",
     "prepare": "husky install"
   },
   "keywords": [
