@@ -29,6 +29,7 @@ const exampleRelativeResult = {
   percentage: 15,
 }
 ```
+
 ## Support
 
 ### 2 APIs
@@ -69,4 +70,3 @@ const exampleRelativeResult = {
 - [VELS Boulderhalle](https://vels-stuttgart.de)
 - [Wuerzburg Rock Inn](https://rockinn-wuerzburg.de)
 - [Zirndorf Der Steinbock](https://www.dersteinbock-zirndorf.de)
-
