@@ -16,6 +16,15 @@
     }
   },
   {
+    "name": "Beuel Boulders Habitat",
+    "website": "https://www.bouldershabitat.de",
+    "api": {
+      "type": "webclimber",
+      "token": "mu4Gk2NXGBfUU30McdwEkq18SDks2xDB",
+      "area": "2"
+    }
+  },
+  {
     "name": "Biberach DAV",
     "website": "https://www.sparkassen-dome-biberach.de",
     "api": {
@@ -25,11 +34,45 @@
     }
   },
   {
+    "name": "Bonn Boulders Habitat",
+    "website": "https://www.bouldershabitat.de",
+    "api": {
+      "type": "webclimber",
+      "token": "mu4Gk2NXGBfUU30McdwEkq18SDks2xDB",
+      "area": "1"
+    }
+  },
+  {
+    "name": "Braunschweig Fliegerhalle",
+    "website": "https://www.fliegerhalle-bs.de",
+    "api": {
+      "type": "webclimber",
+      "token": "yspPh6Mr2KdST3br8WC7X8p6BdETgmPn",
+      "area": "1"
+    }
+  },
+  {
     "name": "Burgoberbach Boulder Hall",
     "website": "https://boulderhall.de",
     "api": {
       "type": "boulderado",
       "token": "eyJhbGciOiJIUzI1NiIsICJ0eXAiOiJKV1QifQ.eyJjdXN0b21lciI6IkJvdWxkZXJIYWxsIn0.jUG93IaTtWf--d7mPMuZ1wPkBvmXSm2MhhcKf6HQeMA"
+    }
+  },
+  {
+    "name": "Cliffhanger Boulderlounge",
+    "website": "https://www.cliffhanger-berlin.de",
+    "api": {
+      "type": "webclimber",
+      "token": "Hy1zXvCsvGgeSR8mv92QeqGX0UBn2eux"
+    }
+  },
+  {
+    "name": "DAV Kletter- und Boulderzentrum Karlsruhe",
+    "website": "https://alpenverein-karlsruhe.de/kletterzentrum",
+    "api": {
+      "type": "webclimber",
+      "token": "xgeHstedfQ4Wp1Tg3Q31yCwXAy98gs4e"
     }
   },
   {
@@ -63,6 +106,15 @@
       "type": "webclimber",
       "id": 133,
       "token": "UtpHvbBVgevzEx1Ufw9fGTrxQfTP4Tba"
+    }
+  },
+  {
+    "name": "Freising Kletterzentrum",
+    "website": "https://www.kletterzentrum-freising.de",
+    "api": {
+      "type": "webclimber",
+      "token": "kqGSgwRfZbQDV2CrSku1AcCZ17RCyfQk",
+      "area": "2"
     }
   },
   {
@@ -109,6 +161,31 @@
     }
   },
   {
+    "name": "Kletterwelt Sauerland",
+    "website": "https://www.kletterwelt-sauerland.de",
+    "api": {
+      "type": "webclimber",
+      "token": "Se5P4N12vcPpet1W7XeykuEFkrbCppK9",
+      "area": "2"
+    }
+  },
+  {
+    "name": "Kletterzentrum Allgaeu",
+    "website": "https://alpenverein-fuessen.de/kletterzentrum-allgaeu",
+    "api": {
+      "type": "webclimber",
+      "token": "3ewTRub1b8gxE9Y8A7WXUWZWW1U60nf4"
+    }
+  },
+  {
+    "name": "Kletterzentrum Bayreuth",
+    "website": "https://kletterzentrum-bayreuth.de",
+    "api": {
+      "type": "webclimber",
+      "token": "Y0PsDZFtpybB1S29H3XTGQ0zEBRMrm8h"
+    }
+  },
+  {
     "name": "Koeln Kletterfabrik",
     "website": "https://www.kletterfabrik.koeln",
     "api": {
@@ -142,6 +219,15 @@
     }
   },
   {
+    "name": "Landshut DAV",
+    "website": "https://www.kletterzentrum-landshut.de",
+    "api": {
+      "type": "webclimber",
+      "token": "CycEfe2pf8xmNfM39b63UeFcUz4ARsWP",
+      "area": "2"
+    }
+  },
+  {
     "name": "Memmingen DAV",
     "website": "https://boulderhalle-memmingen.de",
     "api": {
@@ -156,6 +242,15 @@
     "api": {
       "type": "boulderado",
       "token": "eyJhbGciOiJIUzI1NiIsICJ0eXAiOiJKV1QifQ.eyJjdXN0b21lciI6IkVpbnN0ZWluTSJ9.uH9xRoVykz5fzofHc-JGigeHreaeTayel49o3FR6cNA"
+    }
+  },
+  {
+    "name": "Munich Heavens Gate",
+    "website": "https://www.heavensgate-muc.de",
+    "api": {
+      "type": "webclimber",
+      "token": "b8cab21X5BEfm2g8zr32eX1kgfwg1EQx",
+      "area": "1"
     }
   },
   {
@@ -223,6 +318,39 @@
     "api": {
       "type": "boulderado",
       "token": "eyJhbGciOiJIUzI1NiIsICJ0eXAiOiJKV1QifQ.eyJjdXN0b21lciI6IlN0dW50d2Vya1Jvc2VuaGVpbTM5MjAyMCJ9.DjD06gzd9J68LfT8wbRT5Kjw9zutgt22D2x9Xwd81zY"
+    }
+  },
+  {
+    "name": "Straubing Boulderhalle",
+    "website": "https://www.boulderhalle-straubing.de",
+    "api": {
+      "type": "webclimber",
+      "token": "9hwaBUT2G3PbrUQZ1xG3w4xCzvh98SN3"
+    }
+  },
+  {
+    "name": "Stuttgart Roccadion",
+    "website": "https://roccadion.de",
+    "api": {
+      "type": "webclimber",
+      "token": "vEa0X8u7Hn8G707q9qB00aUE9c35X4Bz"
+    }
+  },
+  {
+    "name": "Stuttgart Rockerei",
+    "website": "https://rockerei-stuttgart.de",
+    "api": {
+      "type": "webclimber",
+      "token": "2w26F5nRKv08Yacx7XBrXzhhHrVtYF1b",
+      "area": "2"
+    }
+  },
+  {
+    "name": "Tuebingen B12 DAV",
+    "website": "https://b12-tuebingen.de",
+    "api": {
+      "type": "webclimber",
+      "token": "184xNhv6RRU7H2gVg8QFyHCYxym8DKve"
     }
   },
   {
