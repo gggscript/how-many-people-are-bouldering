@@ -21,6 +21,7 @@ export interface WebclimberAPI {
   type: 'webclimber'
   id: number
   token: string
+  area?: number
 }
 
 // Different Ways APIs respond

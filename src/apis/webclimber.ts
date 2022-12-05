@@ -4,13 +4,13 @@ import type { Got } from 'got-scraping'
 const Regex = /width:\s*([0-9]+)%/
 
 export default async function getOccupancy(httpClient: Got, apiOptions: WebclimberAPI): Promise<RelativeAPIResult> {
+  const searchParams: { [key: string]: string } = {
+    callback: 'WebclimberTrafficlight.insertTrafficlight',
+    key: apiOptions.token,
+  }
+  if (typeof apiOptions.area === 'number') searchParams.area = apiOptions.area.toString()
   const response = await httpClient(`https://${apiOptions.id}.webclimber.de/de/trafficlight`, {
-    searchParams: new URLSearchParams(
-      Object.entries({
-        callback: 'WebclimberTrafficlight.insertTrafficlight',
-        key: apiOptions.token,
-      })
-    ),
+    searchParams: new URLSearchParams(Object.entries(searchParams)),
     headers: {
       'sec-fetch-dest': 'script',
       'sec-fetch-mode': 'no-cors',
