@@ -134,6 +134,14 @@
     }
   },
   {
+    "name": "Krefeld Stuntwerk",
+    "website": "https://stuntwerk-krefeld.de",
+    "api": {
+      "type": "boulderado",
+      "token": "eyJhbGciOiJIUzI1NiIsICJ0eXAiOiJKV1QifQ.eyJjdXN0b21lciI6IlN0dW50d2Vya0tyZWZlbGQyMDIxMjkifQ.kMi9hRokwXzYKqWxnQ93It2251MG_i27NNyjYajaP4Q"
+    }
+  },
+  {
     "name": "Memmingen DAV",
     "website": "https://boulderhalle-memmingen.de",
     "api": {
@@ -143,12 +151,52 @@
     }
   },
   {
+    "name": "Munich Einstein",
+    "website": "https://muenchen.einstein-boulder.com",
+    "api": {
+      "type": "boulderado",
+      "token": "eyJhbGciOiJIUzI1NiIsICJ0eXAiOiJKV1QifQ.eyJjdXN0b21lciI6IkVpbnN0ZWluTSJ9.uH9xRoVykz5fzofHc-JGigeHreaeTayel49o3FR6cNA"
+    }
+  },
+  {
+    "name": "Nuernberg Boulderhalle",
+    "website": "https://www.boulderhalle-e4.de",
+    "api": {
+      "type": "boulderado",
+      "token": "eyJhbGciOiJIUzI1NiIsICJ0eXAiOiJKV1QifQ.eyJjdXN0b21lciI6IkU0In0.V1qLmBXgGhZ73-GaYaFsNjrNauJxKx62IWQEqq8dRPw"
+    }
+  },
+  {
     "name": "Nuernberg climbing factory",
     "website": "https://climbing-factory.de/startseite.html",
     "api": {
       "type": "webclimber",
       "id": 173,
       "token": "aHm2rs53fCs1H7F01dxDpeFZ5V3mKH8f"
+    }
+  },
+  {
+    "name": "Nuernberg Der Steinbock",
+    "website": "https://www.dersteinbock-nuernberg.de",
+    "api": {
+      "type": "boulderado",
+      "token": "eyJhbGciOiJIUzI1NiIsICJ0eXAiOiJKV1QifQ.eyJjdXN0b21lciI6IlN0ZWluYm9ja05SQkcyMDIwMzkifQ.-HR_1FyjCV0NpmloWAeY5rMpzYke7VD-gcEf7z6xALI"
+    }
+  },
+  {
+    "name": "Passau Der Steinbock",
+    "website": "https://www.dersteinbock-passau.de",
+    "api": {
+      "type": "boulderado",
+      "token": "eyJhbGciOiJIUzI1NiIsICJ0eXAiOiJKV1QifQ.eyJjdXN0b21lciI6IlN0ZWluYm9ja1Bhc3NhdTE3In0.jlrNfNWhp0xGk3YDJNN__j4rtMUKhd_B8sdi_93MThY"
+    }
+  },
+  {
+    "name": "Recklinghausen Einstein",
+    "website": "https://recklinghausen.einstein-boulder.com",
+    "api": {
+      "type": "boulderado",
+      "token": "eyJhbGciOiJIUzI1NiIsICJ0eXAiOiJKV1QifQ.eyJjdXN0b21lciI6IkVpbnN0ZWluUmVjazE1MjAxOSJ9.qhZNPSqWhRidM9pT3pCcumJjscleyWYGg1NqesGij-A"
     }
   },
   {
@@ -167,6 +215,46 @@
       "type": "webclimber",
       "id": 104,
       "token": "DTRNE01KU4Bub6BMz106MBAGaukYdzzb"
+    }
+  },
+  {
+    "name": "Rosenheim Stuntwerk",
+    "website": "https://stuntwerk-rosenheim.de",
+    "api": {
+      "type": "boulderado",
+      "token": "eyJhbGciOiJIUzI1NiIsICJ0eXAiOiJKV1QifQ.eyJjdXN0b21lciI6IlN0dW50d2Vya1Jvc2VuaGVpbTM5MjAyMCJ9.DjD06gzd9J68LfT8wbRT5Kjw9zutgt22D2x9Xwd81zY"
+    }
+  },
+  {
+    "name": "Ulm Einstein",
+    "website": "https://ulm.einstein-boulder.com",
+    "api": {
+      "type": "boulderado",
+      "token": "eyJhbGciOiJIUzI1NiIsICJ0eXAiOiJKV1QifQ.eyJjdXN0b21lciI6IkVpbnN0ZWluVWxtIn0.42Z3sOzV8xfItWgvCCTYvpvrasil7BlbpsLYhT4VJVg"
+    }
+  },
+  {
+    "name": "VELS Boulderhalle",
+    "website": "https://vels-stuttgart.de",
+    "api": {
+      "type": "boulderado",
+      "token": "eyJhbGciOiJIUzI1NiIsICJ0eXAiOiJKV1QifQ.eyJjdXN0b21lciI6InZlbHNzdHV0dGdhcnQyNzIwMTkifQ.NxmqnR3YpytZLchLIStdahLp8Fr3SkYxcd4MRzYqFXA"
+    }
+  },
+  {
+    "name": "Wuerzburg Rock Inn",
+    "website": "https://rockinn-wuerzburg.de",
+    "api": {
+      "type": "boulderado",
+      "token": "eyJhbGciOiJIUzI1NiIsICJ0eXAiOiJKV1QifQ.eyJjdXN0b21lciI6IlJvY2tJbm5XdWVyemJ1cmcifQ.rq0u9Pzj-vdCAtLvw4gUDMSsYPe0s6z_OEBbd_xIBgg"
+    }
+  },
+  {
+    "name": "Zirndorf Der Steinbock",
+    "website": "https://www.dersteinbock-zirndorf.de",
+    "api": {
+      "type": "boulderado",
+      "token": "eyJhbGciOiJIUzI1NiIsICJ0eXAiOiJKV1QifQ.eyJjdXN0b21lciI6Ilppcm5kb3JmIn0.JbdO230u8mmY0Oh5afF86yI3_sUwVmkPQiKfYpWwkOo"
     }
   }
 ]

@@ -33,10 +33,10 @@ const exampleRelativeResult = {
 
 ### 2 APIs
 
-- [Boulderado](src/apis/boulderado.ts) (10 gyms)
+- [Boulderado](src/apis/boulderado.ts) (21 gyms)
 - [Webclimber](src/apis/webclimber.ts) (10 gyms)
 
-### 20 Gyms
+### 31 Gyms
 
 - [Aalen Kletterhalle](https://kletterhalle-aalen.de)
 - [Berlin Magicmountain](https://www.magicmountain.de)
@@ -54,8 +54,19 @@ const exampleRelativeResult = {
 - [Koeln Kletterfabrik](https://www.kletterfabrik.koeln)
 - [Koeln Stuntwerk](https://stuntwerk-koeln.de)
 - [Konstanz Der Steinbock](https://www.dersteinbock-konstanz.de)
+- [Krefeld Stuntwerk](https://stuntwerk-krefeld.de)
 - [Memmingen DAV](https://boulderhalle-memmingen.de)
+- [Munich Einstein](https://muenchen.einstein-boulder.com)
+- [Nuernberg Boulderhalle](https://www.boulderhalle-e4.de)
 - [Nuernberg climbing factory](https://climbing-factory.de/startseite.html)
+- [Nuernberg Der Steinbock](https://www.dersteinbock-nuernberg.de)
+- [Passau Der Steinbock](https://www.dersteinbock-passau.de)
+- [Recklinghausen Einstein](https://recklinghausen.einstein-boulder.com)
 - [Regensburg DAV](https://www.kletterzentrum-regensburg.de)
 - [Reutlingen DAV](https://www.kletterzentrum-reutlingen.de)
+- [Rosenheim Stuntwerk](https://stuntwerk-rosenheim.de)
+- [Ulm Einstein](https://ulm.einstein-boulder.com)
+- [VELS Boulderhalle](https://vels-stuttgart.de)
+- [Wuerzburg Rock Inn](https://rockinn-wuerzburg.de)
+- [Zirndorf Der Steinbock](https://www.dersteinbock-zirndorf.de)
 
