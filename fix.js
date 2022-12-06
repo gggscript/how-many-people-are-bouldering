@@ -59,7 +59,7 @@ if (stagedFiles.includes('gyms.json')) {
         sectionStart = i
       }
     } else {
-      if (lines[i][0] === '#') {
+      if (lines[i].startsWith('# ') || lines[i].startsWith('## ')) {
         sectionEnd = i
         break
       } else {
@@ -68,10 +68,10 @@ if (stagedFiles.includes('gyms.json')) {
     }
   }
   if (sectionStart === undefined) sectionStart = lines.length
-  if (sectionEnd === undefined) sectionStart = lines.length - 1
+  if (sectionEnd === undefined) sectionEnd = lines.length
   if (newLines.length !== sectionEnd - sectionStart || differenceDetected) {
     lines.splice(sectionStart, sectionEnd - sectionStart, ...newLines)
-    fs.writeFileSync('README.md', lines.join('\n'))
+    fs.writeFileSync('README2.md', lines.join('\n'))
     execSync('git add README.md')
   }
 }
