@@ -2,6 +2,11 @@
 
 Programmatically find out how many people are in a bouldering gym
 
+In the last few years more and more Bouldering Gyms have shown the occupancy of their gym on their website.
+They use services provided by [POS Systems](https://en.wikipedia.org/wiki/Point_of_sale) like [Boulderado](https://boulderadosoftware.bitrix24.site/boulderado.software) or [Webclimber](https://www.freeclimber-kassensystem.de). These occupancy displays are almost always limited in their utility, showing only how many people are present right now instead of trends and having no easy API.
+
+This project is an REST API client with a defined schema and a list of gyms with their respective API endpoints
+
 ## Usage
 
 You need [node.js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
